@@ -1,0 +1,256 @@
+/* main */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.banner nav{
+    display: flex;
+    justify-content: space-between;
+    /* height: 100px; */
+    /* width: 100%; */
+    /* background-color: brown; */
+}
+.banner nav h2{
+    margin-top: 40px;
+    margin-right: 20px;
+    padding-left: 10px;
+}
+.banner nav ul{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 20px
+}
+.banner nav ul li{
+    list-style: none;
+    
+}
+.banner nav ul li a{
+    color:azure;
+   text-decoration: none;
+   font-weight: 10px;
+   font-size: 20px;
+   margin: 0px 10px;
+   padding: 5px;
+}
+
+
+
+/* end navbar */
+.banner{
+    background-image:  url("images/donation2.jpg");
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.main-content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    color: aliceblue;
+}
+.main-content h1{
+    font-size: 50px;
+    margin-bottom: 15px;
+ 
+}
+.main-content p{
+margin: 20px auto;
+font-weight: 100;
+   
+}
+ .primary-button{
+        
+        background-color: rgb(222, 69, 69); 
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 20px 2px;
+        cursor: pointer;
+        border-radius: 10px;
+      
+}
+
+/* donate today */
+.donate-today{
+    text-align: center;
+    margin: 20px 0px;
+}
+.donate-today h2{
+    margin: 10px 0px;
+}
+.donate-wraper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.donate-amount{
+    height:80px;
+    width: 80px;
+    background-color: gainsboro;
+    margin: 30px 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
+.other-amount{
+    text-align: center;
+}
+
+/* our donation */
+.our-donation-wraper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+}
+.our-donation{
+    text-align: center;
+    margin: 20px 0px;
+}
+.our-donation p{
+    margin: 10px 0px;
+    color: #6c757d;
+}
+#our-donation-1{
+    height: 250px;
+    width: 250px;
+    background-color:rgba(115, 166, 149, 0.991);
+    margin:20px 20px;
+    padding: 20px;
+  
+}
+#our-donation-1 h2{
+    margin: 10px 0px;
+}
+#our-donation-2{
+    height: 250px;
+    width: 250px;
+    background-color:rgb(173, 163, 149);
+    margin:20px 20px;
+    padding: 20px;
+}
+#our-donation-2 h2{
+    margin: 10px 0px;
+}
+#our-donation-3{
+    height: 250px;
+    width: 250px;
+    background-color:rgb(192, 166, 132);
+    margin:20px 20px;
+    padding: 20px;
+}
+#our-donation-3 h2{
+    margin: 10px 0px;
+}
+
+
+/* your donation */
+.your-donation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0px;
+
+}
+.your-donation-items{
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+    padding: 20px;
+}
+.your-donation-items h1{
+    margin-top: 20px;
+}
+.your-donation-items p{
+    margin: 15px 0px;
+}
+
+.your-d-img {
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+    padding: 20px; 
+}
+.your-d-img img{
+    height: 300px;
+    width: 300px;
+}
+/* my updates */
+.my-updates h1{
+    margin: 10px 0px;
+}
+.my-updates p{
+    
+    margin: 10px 0px;
+}
+.my-updates{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input-area{
+    height: 100px;
+    background-color: rgb(229, 207, 177);
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-container{
+    height: 50px;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.input-container input{
+    border: none;
+    flex: 8;
+    background-color: gainsboro;
+    padding: 10px;
+ 
+}
+.subsc-btn{
+    border: none;
+    background-color:rgb(157, 15, 15);
+    color: white;
+    flex: 1;
+    padding: 10px;
+
+
+}
+
+/* footer */
+.footer{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer h1{
+    color: brown;
+  margin: 10px 0px;
+}
+.footer p{
+    color: aliceblue;
+}
